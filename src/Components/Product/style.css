@@ -1,0 +1,41 @@
+
+p{margin: 0;}
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px 4px;
+}
+
+.img{
+  width:60px;
+  height: 60px;
+}
+.index-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.index-buttons button{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-width: 2px;
+  width: 45%;
+}
+.index-buttons button:last-child{
+  margin:auto;
+}
+.name{
+  font-size: 14px;
+  font-weight: 500;
+}
+.number,.quantity{
+font-size: 12px;;
+}

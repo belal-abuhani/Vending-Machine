@@ -1,0 +1,58 @@
+.ui{
+  display: flex;
+  padding: 20px;
+}
+.products-countiner{
+  width: 75%;;
+}
+
+.products{
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+}
+
+.control{
+  flex-direction: column;
+  display: flex;
+  margin-top: 170px;
+  /* width: 25%; */
+  }
+
+  .control button{
+    cursor: pointer;
+    padding: 7px;
+    margin: 5px;
+    text-align: center;
+  }
+  .control input{
+    text-align: center;
+  }
+
+  .control .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 1px solid black;
+  }
+  .changes{
+    text-align: center;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .output-countiner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profit{
+    margin-top: 40px;
+    font-weight: 500;
+  }
